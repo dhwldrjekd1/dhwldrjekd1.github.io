@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>최동윤 | AI Full Stack Developer · 광고·마케팅 테크</title>
+<meta name="description" content="최동윤 AI 풀스택 개발자 포트폴리오 — 리뷰 감성분석·추천·RAG(ReviewLens), 교통 영상 AI(TAS), Spring Boot·Vue 커머스 등 AI를 서비스로 완성하는 프로젝트." />
+<meta name="author" content="최동윤 (Choi Dongyun)" />
+<!-- 링크 공유 미리보기 (배포 시 og:url / og:image는 실제 도메인 절대경로로 바꾸세요) -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="최동윤 | AI Full Stack Developer" />
+<meta property="og:description" content="리뷰·고객 데이터를 광고·마케팅 성과로 바꾸는 AI 풀스택 개발자 — 감성분석·추천·광고 카피 자동 생성." />
+<meta property="og:image" content="images/reviewlens.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<!-- 탭 아이콘(favicon): 인라인 SVG라 별도 파일 불필요 -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23e35f31'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='28' font-weight='bold' letter-spacing='-1' text-anchor='middle' fill='%23ffffff'%3ECD%3C/text%3E%3C/svg%3E" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="topbar">
+  <span><strong>최동윤 (Choi Dongyun)</strong> · 광고·마케팅 회사 AI Full Stack Developer 지원</span>
+  <div><a href="mailto:chlehdgb123@naver.com">chlehdgb123@naver.com</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+</div>
+<header>
+  <div class="header-inner">
+    <a class="header-logo" href="#cover" aria-label="portfolio home">
+      <div class="logo-badge">CD</div>
+      <div><div class="logo-name">최동윤 · Choi Dongyun</div><div class="logo-tag">AI Full Stack Developer</div></div>
+    </a>
+    <nav class="header-nav">
+      <a href="#cover" class="active">Cover</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-ctas">
+      <a class="btn-hdr-out" href="#contact">연락하기</a>
+      <a class="btn-hdr-fill" href="resume.pdf" download="최동윤_이력서.pdf">이력서 다운로드</a>
+    </div>
+  </div>
+</header>
+
+<section class="cover" id="cover">
+  <div class="cover-inner">
+    <div class="cover-copy">
+      <h1>커머스를 만들고<br><span>AI까지 다루는 풀스택 개발자</span></h1>
+      <p>프론트엔드부터 백엔드까지 직접 구현하고, AI로 리뷰 데이터를 마케팅 성과로 바꿉니다.</p>
+      <p class="cover-kw">커머스 전환 구현 · 감성분석 광고 카피 · 셀러 응답 자동화</p>
+      <div class="cover-cta">
+        <a class="btn btn-dark" href="#projects">프로젝트 보기</a>
+        <a class="btn btn-orange" href="#contact">연락하기</a>
+      </div>
+    </div>
+    <div class="cover-visual">
+      <div class="hero-collage">
+        <figure class="shot shot-back"><div class="shot-bar"><span class="sb-dots"><b></b><b></b><b></b></span><span class="sb-addr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1a5 5 0 00-5 5v3H6a2 2 0 00-2 2v9a2 2 0 002 2h12a2 2 0 002-2v-9a2 2 0 00-2-2h-1V6a5 5 0 00-5-5zm3 8H9V6a3 3 0 016 0z"/></svg>huggingface.co/spaces/dongyuns/reviewlens</span></div><img src="images/reviewlens.webp" alt="ReviewLens 화면" /><figcaption>ReviewLens · 리뷰 AI</figcaption></figure>
+        <figure class="shot shot-mid"><div class="shot-bar"><span class="sb-addr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1a5 5 0 00-5 5v3H6a2 2 0 00-2 2v9a2 2 0 002 2h12a2 2 0 002-2v-9a2 2 0 00-2-2h-1V6a5 5 0 00-5-5zm3 8H9V6a3 3 0 016 0z"/></svg>github.com/dhwldrjekd1/portfolio_shop</span></div><img src="images/gentlemonster.webp" alt="Gentle Monster 화면" /><figcaption>Gentle Monster · 커머스</figcaption></figure>
+        <figure class="shot shot-front"><div class="shot-bar"><span class="sb-dots"><b></b><b></b><b></b></span><span class="sb-addr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1a5 5 0 00-5 5v3H6a2 2 0 00-2 2v9a2 2 0 002 2h12a2 2 0 002-2v-9a2 2 0 00-2-2h-1V6a5 5 0 00-5-5zm3 8H9V6a3 3 0 016 0z"/></svg>github.com/dhwldrjekd1/FORME_shop</span></div><img src="images/forme.webp" alt="FORME 화면" /><figcaption>FORME · 커머스</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="intro" id="about">
+  <div class="section-inner">
+    <div class="section-eyebrow">소개</div>
+    <h2 class="section-title">데이터를 광고·마케팅<br>성과로 바꾸는 AI 풀스택</h2>
+    <p class="section-sub">저는 데이터에서 출발해, 사용자가 실제로 쓰는 기능까지 연결하는 개발자를 지향합니다.</p>
+    <div class="intro-grid">
+      <div class="profile-card">
+        <div class="profile-mark"><img src="images/profile1.webp" alt="최동윤 캐릭터 — 광고·마케팅 AI 개발자" onerror="this.remove();this.parentElement.textContent='CD';" /></div>
+      </div>
+      <div class="intro-panel">
+        <h2 class="intro-name">최동윤<span class="intro-role"><svg class="role-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0m-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"/></svg>AI 풀스택 개발자</span></h2>
+        <div class="intro-about">
+          <p>리뷰 감성분석·추천·RAG 챗봇부터 커머스 기능과 대시보드까지 직접 구현하며,<br><b>AI 모델이 결과로 끝나지 않고 서비스 안에서 작동하도록</b> 연결하는 데 집중했습니다.</p>
+          <p>특히 광고·마케팅의 핵심인 <b>고객 반응·리뷰·상품 데이터</b>를 분석해,<br>추천·광고 카피·전환 기능처럼 <b>실질적인 서비스 가치</b>로 바꾸는 개발자로 성장하고자 합니다.</p>
+        </div>
+        <div class="intro-card wide">
+          <small>이력서 · 포트폴리오</small>
+          <h3>AI 서비스 경험을 보기 쉽게 정리했습니다</h3>
+          <p>광고·마케팅 AI 서비스에 맞춘 기술 스택과 프로젝트 경험.<br>학력·교육 이력까지 디자인 이력서로 정리했습니다.</p>
+          <div class="intro-actions">
+            <a class="btn btn-dark" href="resume.pdf" download="최동윤_이력서.pdf">📄 디자인 이력서 다운로드</a>
+            <a class="btn btn-line" href="#projects">프로젝트 자세히 보기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="projects" id="projects">
+  <div class="section-inner">
+    <div class="section-eyebrow">프로젝트</div>
+    <h2 class="section-title">직접 구현한 프로젝트</h2>
+    <p class="section-sub">광고·마케팅 AI를 중심으로, 커머스·교통 AI까지 풀스택 역량을 담았습니다.</p>
+
+    <div class="featured-project reveal">
+      <div class="featured-img" style="background-image:url('images/reviewlens.webp')"><span class="featured-flag"><svg class="pk-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.73 1.73 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.73 1.73 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.73 1.73 0 0 0 3.407 2.31zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/></svg>대표 프로젝트</span></div>
+      <div class="featured-content">
+        <span class="pk">AI · 리뷰 인텔리전스 → 마케팅 자동화</span>
+        <h3>ReviewLens</h3>
+        <p class="lead">리뷰를 감성분석해 추천에 반영하고,<br>리뷰 속 강점을 추출해 <b>광고 카피와 셀러 응답을 생성</b>하는 AI 서비스입니다.<br>FastAPI 추론 서버와 사용자 화면까지 연결해 <b>실제 서비스로 완성</b>했습니다.</p>
+        <div class="featured-metrics">
+          <div><div class="gauge" style="--p:63"><em>+63%</em></div><span>추천 성능 개선<br>Recall@10 0.19 → 0.31</span></div>
+          <div><div class="gauge" style="--p:93"><em>0.93</em></div><span>속성 기반 감성분석<br>F1 · ABSA 모델</span></div>
+          <div><div class="gauge ic"><svg viewBox="0 0 16 16" fill="currentColor"><path d="M9.5 2.672a.5.5 0 1 0 1 0V.843a.5.5 0 0 0-1 0zm4.5.035A.5.5 0 0 0 13.293 2L12 3.293a.5.5 0 1 0 .707.707zM7.293 4A.5.5 0 1 0 8 3.293L6.707 2A.5.5 0 0 0 6 2.707zm-.621 2.5a.5.5 0 1 0 0-1H4.843a.5.5 0 1 0 0 1zm8.485 0a.5.5 0 1 0 0-1h-1.829a.5.5 0 0 0 0 1zM13.293 10A.5.5 0 1 0 14 9.293L12.707 8a.5.5 0 1 0-.707.707zM9.5 11.157a.5.5 0 0 0 1 0V9.328a.5.5 0 0 0-1 0zm1.854-5.097a.5.5 0 0 0 0-.706l-.708-.708a.5.5 0 0 0-.707 0L8.646 5.94a.5.5 0 0 0 0 .707l.708.708a.5.5 0 0 0 .707 0l1.293-1.293Zm-3 3a.5.5 0 0 0 0-.706l-.708-.708a.5.5 0 0 0-.707 0L.646 13.94a.5.5 0 0 0 0 .707l.708.708a.5.5 0 0 0 .707 0z"/></svg></div><span>리뷰 기반 광고 카피<br>셀러 응답 자동 생성</span></div>
+        </div>
+        <div class="featured-actions"><a class="btn btn-dark" href="#" onclick="openModal('reviewlens');return false;">상세보기</a><a class="btn btn-line" href="https://huggingface.co/spaces/dongyuns/reviewlens" target="_blank" rel="noopener"><img class="btn-ico" src="images/icons/hf-logo.svg" alt="Hugging Face" />Live Demo</a><a class="btn btn-line" href="https://github.com/dhwldrjekd1/reviewlens-" target="_blank" rel="noopener"><svg class="btn-ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"/></svg>GitHub</a></div>
+      </div>
+    </div>
+
+    <p class="grid-label">커머스 · 교통 AI 프로젝트</p>
+    <div class="project-grid">
+      <article class="project-card p-commerce">
+        <div class="project-thumb green has-img" style="background-image:url('images/forme.webp')"></div>
+        <div class="project-body"><span class="project-kind-b"><svg class="pk-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/></svg>커머스 · 전환·리텐션 설계</span><b class="project-title">FORME — 헤리티지 패션 편집숍</b><p>등급 할인·사이즈 추천·큐레이션으로 구매 전환과 재방문 흐름을 설계한 풀스택 커머스입니다. 3인 팀의 팀장으로 기획부터 배포까지 주도했습니다.</p><div class="pstack"><span class="pchip"><img src="images/icons/vuejs.svg" alt="" />Vue 3</span><span class="pchip"><img src="images/icons/spring.svg" alt="" />Spring Boot</span><span class="pchip"><img src="images/icons/postgresql.svg" alt="" />PostgreSQL</span><span class="pchip">Toss Pay</span></div><div class="meta-list"><span><b>Result</b>등급 할인 · BMI 사이즈 추천 · Toss 결제 · 관리자 대시보드 구현</span></div><div class="project-actions"><a class="primary" href="#" onclick="openModal('forme');return false;">상세보기</a><a href="https://github.com/dhwldrjekd1/FORME_shop_backend" target="_blank" rel="noopener"><svg class="btn-ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"/></svg>GitHub</a></div></div>
+      </article>
+      <article class="project-card p-ai">
+        <div class="project-thumb has-img" style="background-image:url('images/straffic.webp')"></div>
+        <div class="project-body"><span class="project-kind-b"><svg class="pk-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0m10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17s2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276"/><path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.8.8 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155s4.037-.084 5.592-.155A1.48 1.48 0 0 0 15 9.611v-.413q0-.148-.03-.294l-.335-1.68a.8.8 0 0 0-.43-.563 1.8 1.8 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3z"/></svg>교통 AI · 과속·교통 흐름 분석</span><b class="project-title">TAS — 교통 분석 시스템</b><p>교통 영상에서 차량을 탐지하고 속도·과속 여부·차량 흐름을 분석해 관제 대시보드로 연결한 교통 AI 서비스입니다.</p><div class="pstack"><span class="pchip"><img src="images/icons/fastapi.svg" alt="" />FastAPI</span><span class="pchip"><img src="images/icons/ultralytics.svg" alt="" />YOLO11</span><span class="pchip"><img src="images/icons/paddleocr.svg" alt="" />PaddleOCR</span><span class="pchip"><img src="images/icons/spring.svg" alt="" />Spring Boot</span></div><div class="meta-list"><span><b>Result</b>차량 탐지 · 번호판 OCR · 속도 추정 · 과속 판단 · 교통 흐름 대시보드</span></div><div class="project-actions"><a class="primary" href="#" onclick="openModal('straffic');return false;">상세보기</a><a href="https://github.com/angela860807/Traffic_Analytics_Proposal" target="_blank" rel="noopener"><svg class="btn-ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"/></svg>GitHub</a></div></div>
+      </article>
+      <article class="project-card p-commerce">
+        <div class="project-thumb has-img" style="background-image:url('images/gentlemonster.webp')"></div>
+        <div class="project-body"><span class="project-kind-b"><svg class="pk-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M4 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4m2.625.547a3 3 0 0 0-5.584.953H.5a.5.5 0 0 0 0 1h.541A3 3 0 0 0 7 8a1 1 0 0 1 2 0 3 3 0 0 0 5.959.5h.541a.5.5 0 0 0 0-1h-.541a3 3 0 0 0-5.584-.953A2 2 0 0 0 8 6c-.532 0-1.016.208-1.375.547M14 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0"/></svg>커머스 · 1인 풀스택 구현</span><b class="project-title">Gentle Monster 스타일 쇼핑몰</b><p>상품 탐색부터 주문, 리뷰, 커뮤니티, 관리자 기능까지 1인 풀스택으로 완성한 브랜드형 커머스 프로젝트입니다.</p><div class="pstack"><span class="pchip"><img src="images/icons/spring.svg" alt="" />Spring Boot</span><span class="pchip"><img src="images/icons/vuejs.svg" alt="" />Vue</span><span class="pchip"><img src="images/icons/postgresql.svg" alt="" />PostgreSQL</span><span class="pchip"><img src="images/icons/docker.svg" alt="" />Docker</span></div><div class="meta-list"><span><b>Result</b>구매검증 리뷰 · 회원 등급 · 3단계 결제 · 11개 테이블 구현</span></div><div class="project-actions"><a class="primary" href="#" onclick="openModal('gentlemonster');return false;">상세보기</a><a href="https://github.com/dhwldrjekd1/portfolio_shop_spring_boot" target="_blank" rel="noopener"><svg class="btn-ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"/></svg>GitHub</a></div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="skills" id="skills">
+  <div class="section-inner">
+    <div class="section-eyebrow">기술</div>
+    <h2 class="section-title">프로젝트에 적용한 기술 스택</h2>
+    <p class="section-sub">단순히 나열한 기술이 아니라, 프로젝트에서 직접 구현하고 서비스에 연결해본 기술만 정리했습니다.</p>
+    <div class="skill-grid">
+      <article class="skill-card c-back">
+        <div class="skill-head"><div class="skill-icon"><svg viewBox="0 0 16 16" fill="currentColor"><path d="M7.068.727c.243-.97 1.62-.97 1.864 0l.071.286a.96.96 0 0 0 1.622.434l.205-.211c.695-.719 1.888-.03 1.613.931l-.08.284a.96.96 0 0 0 1.187 1.187l.283-.081c.96-.275 1.65.918.931 1.613l-.211.205a.96.96 0 0 0 .434 1.622l.286.071c.97.243.97 1.62 0 1.864l-.286.071a.96.96 0 0 0-.434 1.622l.211.205c.719.695.03 1.888-.931 1.613l-.284-.08a.96.96 0 0 0-1.187 1.187l.081.283c.275.96-.918 1.65-1.613.931l-.205-.211a.96.96 0 0 0-1.622.434l-.071.286c-.243.97-1.62.97-1.864 0l-.071-.286a.96.96 0 0 0-1.622-.434l-.205.211c-.695.719-1.888.03-1.613-.931l.08-.284a.96.96 0 0 0-1.186-1.187l-.284.081c-.96.275-1.65-.918-.931-1.613l.211-.205a.96.96 0 0 0-.434-1.622l-.286-.071c-.97-.243-.97-1.62 0-1.864l.286-.071a.96.96 0 0 0 .434-1.622l-.211-.205c-.719-.695-.03-1.888.931-1.613l.284.08a.96.96 0 0 0 1.187-1.186l-.081-.284c-.275-.96.918-1.65 1.613-.931l.205.211a.96.96 0 0 0 1.622-.434zM12.973 8.5H8.25l-2.834 3.779A4.998 4.998 0 0 0 12.973 8.5m0-1a4.998 4.998 0 0 0-7.557-3.779l2.834 3.78zM5.048 3.967l-.087.065zm-.431.355A4.98 4.98 0 0 0 3.002 8c0 1.455.622 2.765 1.615 3.678L7.375 8zm.344 7.646.087.065z"/></svg></div><div class="skill-headmeta"><h3>Backend</h3><div class="skill-rows"><div class="ti-row"><span class="ti-label">언어</span><div class="skill-tags"><span class="ti"><img class="ti-logo" src="images/icons/java.svg" alt="" />Java 21</span></div></div><div class="ti-row"><span class="ti-label">스택</span><div class="skill-tags"><span class="ti"><img class="ti-logo" src="images/icons/spring.svg" alt="" />Spring Boot 3.x</span><span class="ti"><span class="ti-mono m-back">J</span>JPA</span><span class="ti"><span class="ti-mono m-back">S</span>Spring Security</span></div></div></div></div></div>
+        <p>여러 서비스의 도메인을 설계하고 REST API·인증을 직접 구현했습니다.</p>
+        <div class="can-do"><div><span class="check">✓</span>11개+ 테이블 도메인 모델링 — 회원·상품·주문·리뷰·게시판</div><div><span class="check">✓</span>Spring Security·JWT·BCrypt 권한·인증 구현</div><div><span class="check">✓</span>등급·시즌 할인, 토스 결제 등 핵심 로직 API화 (FORME)</div></div>
+      </article>
+      <article class="skill-card c-front">
+        <div class="skill-head"><div class="skill-icon"><svg viewBox="0 0 16 16" fill="currentColor"><path d="M4.5 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M6 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/><path d="M12 1a2 2 0 0 1 2 2 2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2 2 2 0 0 1-2-2V3a2 2 0 0 1 2-2zM2 12V5a2 2 0 0 1 2-2h9a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1m1-4v5a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V8zm12-1V5a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v2z"/></svg></div><div class="skill-headmeta"><h3>Frontend</h3><div class="skill-rows"><div class="ti-row"><span class="ti-label">언어</span><div class="skill-tags"><span class="ti"><img class="ti-logo" src="images/icons/javascript.svg" alt="" />JavaScript</span><span class="ti"><img class="ti-logo" src="images/icons/html5.svg" alt="" />HTML5</span><span class="ti"><img class="ti-logo" src="images/icons/css3.svg" alt="" />CSS3</span></div></div><div class="ti-row"><span class="ti-label">스택</span><div class="skill-tags"><span class="ti"><img class="ti-logo" src="images/icons/vuejs.svg" alt="" />Vue.js 3</span><span class="ti"><img class="ti-logo" src="images/icons/pinia.svg" alt="" />Pinia</span><span class="ti"><img class="ti-logo" src="images/icons/vitejs.svg" alt="" />Vite</span><span class="ti"><img class="ti-logo" src="images/icons/axios.svg" alt="" />Axios</span></div></div></div></div></div>
+        <p>메인·서브·상세·관리자까지 서비스 전체 화면을 직접 구성했습니다.</p>
+        <div class="can-do"><div><span class="check">✓</span>커머스 전 화면 — 메인·상품 상세·장바구니·관리자 (Vue 3)</div><div><span class="check">✓</span>리뷰 분석·교통 관제 데이터 시각화 대시보드</div><div><span class="check">✓</span>Axios 연동·Pinia 상태 관리·컴포넌트 재사용</div></div>
+      </article>
+      <article class="skill-card c-ai">
+        <div class="skill-head"><div class="skill-icon"><svg viewBox="0 0 16 16" fill="currentColor"><path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0m-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"/></svg></div><div class="skill-headmeta"><h3>AI & Data</h3><div class="skill-rows"><div class="ti-row"><span class="ti-label">언어</span><div class="skill-tags"><span class="ti"><img class="ti-logo" src="images/icons/python.svg" alt="" />Python</span></div></div><div class="ti-row"><span class="ti-label">스택·모델</span><div class="skill-tags"><span class="ti"><img class="ti-logo" src="images/icons/fastapi.svg" alt="" />FastAPI</span><span class="ti"><img class="ti-logo" src="images/icons/ultralytics.svg" alt="" />YOLO11</span><span class="ti"><img class="ti-logo" src="images/icons/paddleocr.svg" alt="" />PaddleOCR</span><span class="ti"><span class="ti-mono m-ai">K</span>KoELECTRA</span><span class="ti"><span class="ti-mono m-ai">F</span>FAISS</span><span class="ti"><span class="ti-mono m-ai">R</span>LLM/RAG</span></div></div></div></div></div>
+        <p>NLP·추천·RAG와 비전(YOLO·OCR) 모델을 FastAPI로 서비스에 연결했습니다.</p>
+        <div class="can-do"><div><span class="check">✓</span>리뷰 감성분석(ABSA, F1 0.93)·하이브리드 추천 (ReviewLens)</div><div><span class="check">✓</span>FAISS 시맨틱 검색 기반 RAG 챗봇 (ReviewLens)</div><div><span class="check">✓</span>YOLO11 차량 탐지 + PaddleOCR 번호판 OCR + bbox 기반 속도 추정 (TAS)</div></div>
+      </article>
+      <article class="skill-card c-infra">
+        <div class="skill-head"><div class="skill-icon"><svg viewBox="0 0 16 16" fill="currentColor"><path d="M3.904 1.777C4.978 1.289 6.427 1 8 1s3.022.289 4.096.777C13.125 2.245 14 2.993 14 4s-.875 1.755-1.904 2.223C11.022 6.711 9.573 7 8 7s-3.022-.289-4.096-.777C2.875 5.755 2 5.007 2 4s.875-1.755 1.904-2.223"/><path d="M2 6.161V7c0 1.007.875 1.755 1.904 2.223C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777C13.125 8.755 14 8.007 14 7v-.839c-.457.432-1.004.751-1.49.972C11.278 7.693 9.682 8 8 8s-3.278-.307-4.51-.867c-.486-.22-1.033-.54-1.49-.972"/><path d="M2 9.161V10c0 1.007.875 1.755 1.904 2.223C4.978 12.711 6.427 13 8 13s3.022-.289 4.096-.777C13.125 11.755 14 11.007 14 10v-.839c-.457.432-1.004.751-1.49.972-1.232.56-2.828.867-4.51.867s-3.278-.307-4.51-.867c-.486-.22-1.033-.54-1.49-.972"/><path d="M2 12.161V13c0 1.007.875 1.755 1.904 2.223C4.978 15.711 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13v-.839c-.457.432-1.004.751-1.49.972-1.232.56-2.828.867-4.51.867s-3.278-.307-4.51-.867c-.486-.22-1.033-.54-1.49-.972"/></svg></div><div class="skill-headmeta"><h3>Database & Infra</h3><div class="skill-rows"><div class="ti-row"><span class="ti-label">DB</span><div class="skill-tags"><span class="ti"><img class="ti-logo" src="images/icons/postgresql.svg" alt="" />PostgreSQL</span></div></div><div class="ti-row"><span class="ti-label">인프라·툴</span><div class="skill-tags"><span class="ti"><img class="ti-logo" src="images/icons/docker.svg" alt="" />Docker</span><span class="ti"><img class="ti-logo" src="images/icons/nginx.svg" alt="" />Nginx</span><span class="ti"><img class="ti-logo" src="images/icons/raspberrypi.svg" alt="" />Raspberry Pi</span><span class="ti"><img class="ti-logo" src="images/icons/git.svg" alt="" />Git</span><span class="ti"><img class="ti-logo gh" src="images/icons/github.svg" alt="" />GitHub</span></div></div></div></div></div>
+        <p>데이터 모델링부터 컨테이너 배포·디바이스 연동까지 직접 구성했습니다.</p>
+        <div class="can-do"><div><span class="check">✓</span>PostgreSQL 데이터 모델링·조회 설계</div><div><span class="check">✓</span>Docker·Nginx 컨테이너화·배포</div><div><span class="check">✓</span>라즈베리파이 → FastAPI 프레임 전송 (TAS)</div><div><span class="check">✓</span>Git/GitHub 팀 협업·버전 관리</div></div>
+      </article>
+    </div>
+    <div class="projects-code">
+      <p>모든 프로젝트 코드는 <b>GitHub에 공개</b>되어 있습니다 · @dhwldrjekd1</p>
+      <a class="btn btn-dark" href="https://github.com/dhwldrjekd1" target="_blank" rel="noopener"><svg class="btn-ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"/></svg>GitHub 프로필 보기</a>
+    </div>
+  </div>
+</section>
+
+<section class="details-contact" id="contact">
+  <div class="section-inner">
+    <div class="section-eyebrow">연락처</div>
+    <h2 class="section-title">함께 성장할 기회를 기다리고 있습니다</h2>
+    <p class="section-sub">광고·마케팅 AI와 커머스 서비스를 직접 구현하며 성장해온 신입 개발자입니다.<br>채용·협업 제안은 메일로 편하게 연락주세요.</p>
+    <div style="max-width:760px;margin:2.4rem auto 0;">
+      <aside class="contact-card" style="position:static;top:auto;">
+        <div class="contact-links">
+          <a href="mailto:chlehdgb123@naver.com"><span>Email</span><strong>chlehdgb123@naver.com</strong></a>
+          <a href="https://github.com/dhwldrjekd1" target="_blank" rel="noopener"><span>GitHub</span><strong>github.com/dhwldrjekd1</strong></a>
+          <a href="resume.pdf" download="최동윤_이력서.pdf"><span>이력서</span><strong>PDF 다운로드</strong></a>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <input type="hidden" name="access_key" value="7492ec04-c85c-4a42-9989-b54706af23b9" />
+          <input type="hidden" name="subject" value="포트폴리오 문의 — 최동윤" />
+          <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+          <input type="text" name="name" placeholder="이름 또는 회사명" required />
+          <input type="email" name="email" placeholder="회신 이메일" required />
+          <textarea name="message" placeholder="채용/협업 관련 메시지" required></textarea>
+          <button type="submit"><svg class="btn-ico" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/></svg><span class="btn-label">메시지 보내기</span></button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<div class="modal-overlay" id="projectModal" onclick="if(event.target===this)closeModal();">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()" aria-label="닫기">✕</button>
+    <div class="modal-img" id="mImg"></div>
+    <div class="modal-body">
+      <span class="modal-kind" id="mKind"></span>
+      <h3 id="mTitle"></h3>
+      <div class="modal-tags" id="mTags"></div>
+      <div class="modal-rows" id="mRows"></div>
+      <div class="modal-actions" id="mActions"></div>
+    </div>
+  </div>
+</div>
+
+<button class="to-top" id="toTop" aria-label="맨 위로" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+<footer class="footer">
+  <div class="footer-inner"><span>© 2026 최동윤 · AI Full Stack Developer</span><span class="footer-links"><a href="mailto:chlehdgb123@naver.com">chlehdgb123@naver.com</a> · <a href="https://github.com/dhwldrjekd1" target="_blank" rel="noopener">github.com/dhwldrjekd1</a></span></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
