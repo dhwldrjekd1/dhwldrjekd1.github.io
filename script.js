@@ -7,6 +7,22 @@ window.addEventListener('scroll',()=>{
   document.getElementById('toTop').classList.toggle('show',window.scrollY>420);
 });
 
+(function(){
+  const btn=document.getElementById('mobMenuBtn');
+  const menu=document.getElementById('mobMenu');
+  if(!btn||!menu)return;
+  btn.addEventListener('click',()=>{
+    const open=menu.classList.toggle('open');
+    btn.classList.toggle('open',open);
+    btn.setAttribute('aria-label',open?'메뉴 닫기':'메뉴 열기');
+  });
+  menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+    menu.classList.remove('open');
+    btn.classList.remove('open');
+    btn.setAttribute('aria-label','메뉴 열기');
+  }));
+})();
+
 /* 프로젝트 상세 팝업 */
 const PROJECTS={
   reviewlens:{kind:'대표 프로젝트 · AI · 마케팅 자동화',title:'ReviewLens',img:'images/reviewlens.webp',
