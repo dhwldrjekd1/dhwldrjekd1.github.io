@@ -22,7 +22,7 @@ button,input,textarea{font-family:inherit;}
 header{position:sticky;top:0;z-index:50;background:#f3efe8;border-bottom:1px solid var(--line);}
 .header-inner{max-width:1280px;margin:0 auto;height:68px;padding:0 2rem;display:flex;align-items:center;gap:2rem;}
 .header-logo{display:flex;align-items:center;gap:.75rem;}
-.logo-badge{width:38px;height:38px;border-radius:10px;background:#17130f;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;letter-spacing:-.05em;}
+.logo-badge{width:65px;height:65px;border-radius:10px;object-fit:cover;display:block;mix-blend-mode:multiply;}
 .logo-name{font-weight:750;font-size:1.02rem;letter-spacing:-.02em;}
 .logo-tag{font-size:.72rem;color:var(--muted);margin-top:-2px;}
 .header-nav{margin-left:auto;display:flex;align-items:center;gap:.25rem;}
@@ -167,6 +167,7 @@ section{padding:5.7rem 2rem;}
 .project-actions a{flex:1;display:inline-flex;align-items:center;justify-content:center;gap:.4rem;text-align:center;border-radius:8px;padding:.55rem .6rem;font-size:.76rem;font-weight:700;border:1px solid var(--line);}
 .project-actions a.live{background:#0e7c63;border-color:#0e7c63;color:#fff;display:inline-flex;align-items:center;justify-content:center;gap:.35rem;}
 .project-actions a.primary{background:#17130f;color:#fff;border-color:#17130f;}
+.project-actions a.site-link{background:#fff;color:#111;border-color:var(--line);display:inline-flex;align-items:center;justify-content:center;gap:.35rem;}
 
 /* FEATURED PROJECT (광고 간판) */
 .featured-project{display:grid;grid-template-columns:1.02fr 1fr;gap:0;background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;margin-top:2.4rem;box-shadow:var(--shadow);}
@@ -251,5 +252,6 @@ section{padding:5.7rem 2rem;}
 .modal-row{display:grid;grid-template-columns:84px 1fr;gap:.8rem;align-items:start;}
 .modal-row b{font-size:.8rem;color:var(--brand);font-weight:800;padding-top:.1rem;}
 .modal-row p{font-size:.92rem;line-height:1.6;color:#3f3a35;}
-.modal-actions{display:flex;gap:.6rem;}
+.modal-actions{display:flex;gap:.6rem;flex-wrap:wrap;}
+.modal-row p code{background:#f3f0ec;border-radius:4px;padding:.1em .35em;font-size:.87em;font-family:monospace;color:#111;}
 @media(max-width:540px){.modal-row{grid-template-columns:1fr;gap:.2rem;}}
